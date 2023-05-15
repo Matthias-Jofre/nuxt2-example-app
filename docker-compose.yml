@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  example-app:
+    image: matthiasjofre/nuxt2-example-app
+    ports:
+      - 8040:3000
+    restart: always
+    container_name: example-app
